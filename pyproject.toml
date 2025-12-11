@@ -1,0 +1,19 @@
+[project]
+name = "my-proyect"
+version = "0.1.2"
+description = "Default template for PDM package"
+authors = [
+    {name = "Aikido", email = "180811995+AlK1DO@users.noreply.github.com"},
+]
+dependencies = ["playwright>=1.56.0", "python-dotenv>=1.2.1"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
